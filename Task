@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        header {
+            background-color: #ebe23b;
+            color: #000000;
+            text-align: center;
+            border-bottom: 1px solid;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            background-color: gainsboro;
+            padding: 15px 0;
+        }
+        
+        nav a {
+            flex: auto;
+            text-align: center;
+            border: 3px solid black;
+            margin: 0 5px;
+            padding: 15px 0;
+            text-decoration: #ebe23b;
+            color: black;
+            background: whitesmoke;
+        }
+        
+        nav a:hover {
+            outline: 1px solid;
+            color: blue;
+            text-decoration: underline;
+        }
+        
+        img {
+            width: 300px;
+            height: 250px;
+            margin-top: 15px;
+            background-color: gray;
+            border: 5px solid gray;
+        }
+        
+        p {
+            margin-left: 15px;
+            margin-right: 15px;
+            text-align: left;
+        }
+        
+        section {
+            border: 8px solid gray;
+            width: 250px;
+            text-align: center;
+        }
+        
+        button {
+            width: 290px;
+            height: 30px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background-color: #ebe23b;
+            color: black;
+        }
+        
+        footer p {
+            text-align: center;
+        }
+        
+        @media screen and (min-width: 40rem) {
+            body {
+                display: flex;
+                flex-direction: column;
+                max-width: 80rem;
+                margin: auto;
+            }
+            main {
+                flex: 75%;
+                display: flex;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                border-bottom: 0.8rem solid;
+            }
+            nav,
+            header {
+                order: -1;
+            }
+            section {
+                flex: 25%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Images of nature</h1>
+    </header>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#about">About</a>
+        <a href="#Blog">Blog</a>
+        <a href="#Creers">Careers</a>
+        <a href="#Contact Us">Contact Us</a>
+    </nav>
+    <main>
+        <section>
+            <img alt="" src="nature1.jpg">
+            <p> Human activities have an impact on nature, and as a result, the quality of the environment is deteriorating. Deterioration of nature is primarily caused by pollution of the air and water. The oxygen produced by a single fully-grown tree is
+                enough to supply ten people, and the amount of oxygen released by a forest is unquestionably adequate for a metropolis or town. Nature is a healer, and it is the foundation for many industries. </p>
+            <button>Go Somewehere</button>
+        </section>
+        <section>
+            <img alt="" src="nature2.jpg">
+            <p>Human activities have an impact on nature, and as a result, the quality of the environment is deteriorating. Deterioration of nature is primarily caused by pollution of the air and water. The oxygen produced by a single fully-grown tree is
+                enough to supply ten people, and the amount of oxygen released by a forest is unquestionably adequate for a metropolis or town. Nature is a healer, and it is the foundation for many industries. </p>
+            <button>Click Me</button>
+        </section>
+        <section>
+            <img alt="" src="nature3.jpg">
+            <p>Human activities have an impact on nature, and as a result, the quality of the environment is deteriorating. Deterioration of nature is primarily caused by pollution of the air and water. The oxygen produced by a single fully-grown tree is
+                enough to supply ten people, and the amount of oxygen released by a forest is unquestionably adequate for a metropolis or town. Nature is a healer, and it is the foundation for many industries. </p>
+            <button>Do Something</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright 2024</p>
+    </footer>
+</body>
+
+</html>
